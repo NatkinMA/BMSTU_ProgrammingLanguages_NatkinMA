@@ -3,7 +3,7 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.7" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_24" project-jdk-name="Python 3.10 (BMSTU_ProgrammingLanguages_NatkinMA)" project-jdk-type="Python SDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_24" project-jdk-name="Python 3.11 (BMSTU_ProgrammingLanguages_FamilyNS)" project-jdk-type="Python SDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="ProjectType">

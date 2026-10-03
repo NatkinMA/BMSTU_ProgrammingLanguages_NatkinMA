@@ -1,11 +1,19 @@
 from math import *
 
-a = float(input('Введите параметр а: '))
-x = float(input('Введите значение x: '))
+def function_1(x, a):
+    print(__name__)
+    return pow(2, tan(x**2/2-1)**2+(2*cos(x-pi/6))/(1/2+sin(a)**2))
 
-y = tan(x**2/2-1)**2+(2*cos(x-pi/6))/(1/2+sin(a)**2)
-print("{0:.2f} {1:.2f} {2:.4f}".format(a, x, y))
+def function_2(x):
+    print(__name__)
+    return pow(2, log(3-cos(pi/4+2*x), 3+sin(x))/(1+tan(2*x/pi)**2))
 
-tmp = log(3-cos(pi/4+2*x), 3+sin(x))/(1+tan(2*x/pi)**2)
-y = pow(2, tmp)
-print("{0:.2f} {1:.4f}".format(x, y))
+if __name__ == "__main__":
+    a = float(input('Введите параметр а: '))
+    x = float(input('Введите значение x: '))
+
+    y = function_1(x, a)
+    print("{0:.2f} {1:.2f} {2:.4f}".format(a, x, y))
+
+    y = function_2(x)
+    print("{0:.2f} {1:.4f}".format(x, y))
