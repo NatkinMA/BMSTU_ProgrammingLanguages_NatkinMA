@@ -104,7 +104,7 @@ if __name__ == "__main__":
     aX = (-12, 12)
     aY = (-5, 5)
 
-    Dx = 800
+    Dx = 2000
     Dy = int(Dx / ((aX[1] - aX[0]) / (aY[1] - aY[0])))
     tr.setup(Dx, Dy)
     tr.reset()

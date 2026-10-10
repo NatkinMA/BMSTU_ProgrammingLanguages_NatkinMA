@@ -1,5 +1,5 @@
 from math import *
-from lab_work_01_02 import function_1, function_2
+from laboratory_work_01.lab_work_01_02 import function_1, function_2
 
 #def function_1(x, a):
 #    return tan(x**2/2-1)**2+(2*cos(x-pi/6))/(1/2+sin(a)**2)
@@ -17,5 +17,5 @@ if __name__ == "__main__":
         if line == "\n":
             continue
         a, b = line.split()
-        file_output.write(f"{a} {b} {function_1(float(a), float(b))} {function_2(float(a))}\n")
+        file_output.write(f"{__name__} {a} {b} {function_1(float(a), float(b))} {function_2(float(a))}\n")
 
