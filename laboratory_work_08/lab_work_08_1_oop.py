@@ -232,7 +232,7 @@ class Function:
 class Sin2xDevx(Function):
     """y = sin(2x)/x через разложение в ряд Тейлора с точностью eps."""
 
-    EPS = 0.0001
+    EPS = 0.00001
 
     def value(self, x):
         an = 1.0
